@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio_checkbox</title>
+</head>
+<body>
+    
+    <!-----       RADIO:-      ----->
+
+    <!-- Note: The radio group must have share the same name (the value of the name attribute) to be treated as a group. Once the radio group is created, selecting any radio button in that group automatically deselects any other selected radio button in the same group. You can have as many radio groups on a page as you want, as long as each group has its own name.
+
+    Note: The value attribute defines the unique value associated with each radio button. The value is not shown to the user, but is the value that is sent to the server on "submit" to identify which radio button that was selected.-->
+    
+    <form>
+        <input type="radio" value="male">male
+        <input type="radio" value="female">female    <!-- WE CAN SELECTE ALL OF THEM. -->
+        <input type="radio" value="others">others
+         <br> <br>
+        
+         <!-- WE WANT TO SELECT ONE OF THEM AT A TIME , SO WE USE 'NAME' ATTRIBUTE TO GROUP ALL OF THEM. -->
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female     
+        <input type="radio" name="gender" value="others">others 
+        <br><br>
+   
+        <!-- BY-DEFAULT WE WANT TO SELECT 'FEMALE' BUTTON , WE USE 'CHECKED' ATTRIBUTE. -->
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female"checked>female     
+        <input type="radio" name="gender" value="others">others 
+        <br><br>
+
+       <!------     CHECKBOX      ------>
+       <!---  FRO MULTIPLE USAGE PURPOSE WE USE 'CHECK_BOX' RATHER THAN 'RADIO_BUTTON'.  --->
+       <input type="checkbox" name="gender" value="male">male
+       <input type="checkbox" name="gender" value="female">female     
+       <input type="checkbox" name="gender" value="others">others 
+       <br><br>
+    </form>
+</body>
+</html>

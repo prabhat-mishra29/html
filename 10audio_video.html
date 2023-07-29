@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio_video</title>
+</head>
+<body>
+    
+   <!-- WE USE <AUDIO> TAG FOR CREATING AUDIO IN PAGES. -->
+   <!-- 'CONTROL' ATTRIBUTE IS USED , WHEN the browser will offer controls to allow the user to control audio playback, including volume, seeking, and pause/resume playback.-->
+
+    <audio controls>
+<!--    
+     <SOURCE> TAG/ELEMENT IS USED , WHEN the browser allows authors to specify multiple alternative media    resources for media elements. It does not represent anything on its own. -->
+
+    <source src="../audio/Mask-Off.mp3"> 
+     Audio is not supported!         <!--   if audio is not supported,we directly text it. -->
+   </audio><br><br>
+   <!-- FOR AUTOPLAY WE USE 'AUTOPLAY' ATTRIBUTE.  -->
+
+
+   <!-- 'VIDEO' TAG IS USED FOR VIDEO PLAYING.  -->
+   <!-- WHEN 'AUTOPLAY' ATTRIBUTE IS USED , VIDEO PLAY AUTOMATICALY WITHOUT HAVING CONTROL. -->
+   <video autoplay height="500" width="500">
+    <source src="../videos/hotttttt.mp4">
+   </video>
+
+   <!-- 'CONTROL' ATTRIBUTE IS USED , WHEN the browser will offer controls to allow the user to control audio playback, including volume, seeking, and pause/resume playback. -->
+   <video controls height="500" width="500">
+    <source src="../videos/jazz_mish_Shorts.mp4">
+   </video><br><br>
+
+</body>
+</html>

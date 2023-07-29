@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- FOR CREATING TABLE WE USE <TABLE> TAG -->
+     <!-- <TH> STANDS FOR TABLE HEAD , <TR> STANDS FOR TABLE ROW , <TD> STANDS FOR TABLE DATA
+           WE DONOT HAVE <TC> TAG FOR CREATING COLUMN , WE USE <TR> FOR DOING THIS. -->
+     <!-- FOR CREATING BORDER WE USE "BORDER" ATTRIBUTE -->
+
+     <!-- <THEAD> REPRESENTS HEADING PART OF THE TABLE , <TBODY> REPRESENTS BODY PART OF THE TABLE. -->
+     <!-- THESE TAGS DONOT CHANGE THE UI OF THE TABLE,
+      FOR OUR BETTER UNDERSTANDING WE USE.(RECOGNISE BY SEO). -->
+
+<table border="2">
+
+        <!-- TAKING 1ST ROW AS 'HEAD' WHICH MEANS COLUMNS ARE HEADING -->
+    <thaed> <tr>
+              <th> SL.NO </th>
+              <th> NAME </th>
+              <th> BRANCH </th>
+            </tr>
+    </thaed>
+    <tbody>
+           <tr>
+              <td> 1 </td>
+              <td> prabhat </td>
+              <td> it </td>
+            </tr>
+            <tr>
+              <td> 2 </td>
+              <td> sumit </td>
+              <td> E&i </td>
+            </tr>
+            <tr>
+               <td> 3 </td>
+               <td> abinash </td>
+               <td> it </td>
+            </tr>
+    </tbody>
+</table><hr>
+
+        <!-- TAKING 1ST COLUMN AS 'HEAD' WHICH MEANS ROWS ARE HEADING -->
+     <table border="2">
+        <tr>
+            <th> SL.NO </th>
+            <td> 1 </td>
+            <td> 2 </td>
+            <td> 3 </td>
+        </tr>
+        <tr>
+            <th> NAME </th>
+            <td> prabhat </td>
+            <td> abinash </td>
+            <td> sumit </td>
+        </tr>
+        <tr>
+            <th> BRANCH </th>
+            <td> IT </td>
+            <td> IT </td>
+            <td> I&E </td>
+        </tr>
+     </table><hr>
+
+     <!-- WE CAN USE IMAGES AND ANCHOR(LINK) AS ELEMENTS IN TABLE -->
+   <table border="4"> 
+        <tr>
+           <th> SL.NO </th>
+           <th> NAME </th>
+           <th> BRANCH </th>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> <img src="mia_malkova.jpg" height="200" width="300"> </td>
+            <td> <a href="https://www.google.com">google</a> </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> sumit </td>
+            <td> E&i </td>
+       </tr>
+       <tr>
+            <td> 3 </td>
+            <td> abinash </td>
+            <td> it </td>
+        </tr>
+        <tr>
+            <td> 4 </td>
+            <td> prabhat </td>
+            <td> it </td>
+        </tr>
+    </table><hr>
+
+    <!-- 'ROWSPAN' ATTRIBUTE IS USED TO COMBINE ROWS & 'COLSPAN' ATTRIBUTE IS USED TO COMBINE COLUMN. -->
+    <!-- <CAPTION> TAG IS USED TO HEADING OF THE TABLE. -->
+
+    <table border="2"> 
+        <caption>TABLE INFORMATION</caption>
+        <tr>
+            <th>NAUGHTY_GIRL</th>
+            <td><img src="mia_malkova.jpg" height="200" width="300"></td>
+            <td colspan="2"> <a href="https://www.google.com">google</a> </td> <!------  COLSPAN  ------->
+        </tr>
+        <tr>
+            <th rowspan="3"> INFO. </th>
+            <td> 1 </td>
+            <td> prabhat </td>
+            <td> it </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> sumit </td>
+            <td> i&e </td>
+        </tr>
+        <tr>
+            <td> 3 </td>
+            <td> abinash </td>
+            <td> it </td>
+        </tr>
+    </table><hr>
+
+</body>
+</html>

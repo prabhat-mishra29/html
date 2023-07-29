@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form>
+        <div>
+            <!-- 'placeholder' means already place taken. -->
+            <!-- 'value' means already set some value and we can change it further. -->
+            <!-- 'required' must fill this. -->
+            <input type="text" placeholder="type something here">
+            <input type="submit" value="go"><br><br>
+
+            <input type="text" placeholder="type something here" required>
+            <input type="submit" value="go"><br><br>
+
+            <input type="text" value="prabhat">
+            <input type="submit" value="go"><br><br>
+            
+            <!-- 'readonly' means we cannot change the value. -->
+            <input type="text" value="prabhat" readonly>
+            <input type="submit" value="go"><br><br>
+
+            <!-- 'disabled' means delete or diable or fix , no further process. -->
+            <input type="text" value="prabhat" disabled>
+            <input type="submit" value="go"><br><br>
+
+            <!-- 'size' means at a time , a limited size character is shown and also defines the size of a    text. -->
+            <!-- 'maxlength' means at a time , a fix characer is taken , no more.  -->
+            <input type="text" size="50">
+            <input type="submit" value="go"><br><br>
+            <input type="text" maxlength="20" size="50">
+            <input type="submit" value="go"><br><br>
+
+            <!-- 'max' and 'min' basically used in number,range,date,time. -->
+            <input type="number" min="10" max="100"><br><br>
+
+            <!-- 'value=1 step=3' means started from 1 and incremented by 3. -->
+            <input type="number" value="1" step="4"><br><br>
+
+            <!-- started from 10 and incremented by 4.  -->
+            <input type="number" min="10" max="100" step="4"><br><br>
+
+            <!-- without clicking on,it gets auto focus. -->
+            <input type="text" autofocus><br><br>
+
+            <!-- 'autocomplete' maens Autocomplete allows the browser to predict the value. When a user starts to type in a field, the browser should display options to fill in the field, based on earlier typed values.-->
+            <input type="text" autocomplete="on"><br><br>
+
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image_map</title>
+</head>
+<body>
+
+   <!-- The idea behind an image-map is that you should be able to perform different actions depending on where in the image you click.-->
+   <!-- check w3school website about it !-->
+   
+   <img src="../images/workplace.jpg" usemap="#workplace">
+   <map name="workplace">
+        <area shape="rect" coords="34, 44, 270, 350" href="https://www.amazon.com/s?k=laptop&crid=2O8C9SP7BCQ4J&sprefix=laptop%2Caps%2C369&ref=nb_sb_noss_1" target="_blank">  
+            <!-- LINK FOR GOING TO LAPTOP BUYING -->
+
+        <area shape="poly" coords="290,174,331,173,339,249,292,245" href="https://www.amazon.com/s?k=MOBILE&crid=113XZYIU6FTOU&sprefix=mobile%2Caps%2C543&ref=nb_sb_noss_1" target="_blank" >
+           <!-- LINK FOR GOING TO MOBILE BUYING -->
+
+        <area shape="circle" coords="337, 300, 44" href="https://www.amazon.com/s?k=tea+cup&crid=G78ZQ7RH6QAL&sprefix=tea+cup%2Caps%2C372&ref=nb_sb_noss_1" target="_blank" >    
+            <!--LINK FOR GOING TO TEA CUP BUYING-->
+    </map><br><br>
+</body>
+</html>

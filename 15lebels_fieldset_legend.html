@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- check about 'label' tag in w3school. -->
+    <!--Attribute	  Value	        Description
+         for	    element_id	    Specifies the id of the form element the label should be bound to
+         form	     form_id	    Specifies which form the label belongs to -->
+
+    <form>
+    <div>
+    <label for="id1"> <input type="radio" name="sports" value="cricket" id="id1">cricket</label>
+    <label for="id2"> <input type="radio" name="sports" value="tennis" id="id2">tennis</label>
+    <label for="id3"> <input type="radio" name="sports" value="volly" id="id3">volly</label><br><br>
+    </div>
+
+    <div>
+    firstname: <input type="text">
+    lastname: <input type="text"><br><br>
+    </div>
+
+    <div>
+    <label for="id4">firstname: <input type="text" id="id4"></label>
+    <label for="id5">lastname: <input type="text" id="id5"></label>
+    </div><br><br>
+
+    <!-- The <fieldset> tag is used to group related elements in a form.
+      The <fieldset> tag draws a box around the related elements.-->
+    <!-- The <legend> tag is used to define a caption for the <fieldset> element.-->
+
+    </form> 
+    <fieldset>
+        <legend>Basic_information</legend>
+        <label for="id8">firstname: <input type="text" id="id8"></label>
+        <label for="id9">lastname: <input type="text" id="id9"></label>
+    </fieldset>
+    <fieldset>
+        <legend>Other_information</legend>
+        <label for="id6">Address: <input type="text" id="id6"></label>
+        <label for="id7">Contact: <input type="text" id="id7"></label>
+    </fieldset>   
+
+</body>
+</html>
